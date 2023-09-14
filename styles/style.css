@@ -9774,6 +9774,16 @@ body {
   font-family: "Noto Sans TC", Baloo Tamma 2;
 }
 
-.index {
-  margin-top: 10px;
+.header {
+  border-bottom: 2px solid #ffdf65;
+}
+.header .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
+}
+.header .navbar-toggler-icon {
+  width: 2.5rem;
+}
+.header .login {
+  color: #636057;
 }/*# sourceMappingURL=style.css.map */
