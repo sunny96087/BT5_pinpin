@@ -463,6 +463,7 @@ $utilities: map-merge(
         lg: $line-height-lg,
       )
     ),
+    // NOTE 文字對齊
     "text-align": (
       responsive: true,
       property: text-align,
@@ -471,6 +472,7 @@ $utilities: map-merge(
         start: left,
         end: right,
         center: center,
+        justify: justify // 加這行
       )
     ),
     "text-decoration": (

@@ -1,55 +1,109 @@
-
-body{
+body {
   font-family: "NotoSans TC", BalooTamma2;
   background-color: $gray-100;
 
+  .header {
+    border-bottom: 2px solid #ffdf65;
 
-.header {
-  border-bottom: 2px solid #ffdf65;
+    .navbar-toggler {
+      border-color: rgba(0, 0, 0, 0);
+      color: rgba(0, 0, 0, 0);
+    }
 
-  .navbar-toggler {
-    border-color: rgba(0, 0, 0, 0);
-    color: rgba(0, 0, 0, 0);
+    .navbar-toggler-icon {
+      width: 2.5rem;
+    }
+
+    .login {
+      color: #636057;
+    }
+
+    .nav_b {
+      padding: 8px;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
   }
 
-  .navbar-toggler-icon {
-    width: 2.5rem;
+  main {
+    // section
+    h1 {
+      letter-spacing: 3px;
+    }
+
+    .price {
+      font-family: BalooTamma2;
+      // font-weight: 600;
+      // margin-bottom: 12px;
+    }
+
+    .icon {
+      width: 24px;
+      height: 24px;
+    }
+
+    .donate_border {
+      border-left: 3px solid #ffdf65;
+    }
   }
 
-  .login {
-    color: #636057;
+  //  Navs & Tabs
+  .nav_item {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid transparent;
+    letter-spacing: 2px;
+
+    &:hover {
+      font-weight: bold;
+      border-bottom: 1px solid #ffdf65;
+    }
+
+    // &:focus {
+    //   font-weight: bold;
+    //   border-bottom: 1px solid #ffdf65;
+    // }
+  }
+  li {
+    .active {
+      font-weight: bold;
+      border-bottom: 1px solid #ffdf65;
+    }
   }
 
-  .nav_b {
-    padding: 8px;
-    padding-left: 32px;
-    padding-right: 32px;
+  // 專案介紹
+  h3 {
+    letter-spacing: 1.92px;
+  }
+
+  // form
+  .input_bg {
+    background-color: #f7f7f7;
   }
 }
 
-main{
-  // section
-  h1{
-    letter-spacing: 3px;
-  }
+// 自訂 class
 
-  .price{
-    font-family: BalooTamma2;
-    // font-weight: 600;
-    // margin-bottom: 12px;
-  }
-
-  .icon{
-    width: 24px;
-    height: 24px;
-  }
-
-  .donate_border{
-    border-left: 3px solid #ffdf65;
-  }
-}
+.pic_rwd {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.pic_rwd{
-  width: 100%;height: 100%; object-fit: cover;
+.pic_round_over {
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.txt_border_left {
+  border-left: 4px solid #ffdf65;
+}
+
+/* 添加這些樣式讓 Toast 位於畫面正中央 */
+.toast-center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
 }
