@@ -12332,34 +12332,51 @@ body main .icon {
 body main .donate_border {
   border-left: 3px solid #ffdf65;
 }
-body .nav_item {
+body main .nav_item {
   border: none;
   background-color: transparent;
   border-bottom: 1px solid transparent;
   letter-spacing: 2px;
 }
-body .nav_item:hover {
+body main .nav_item:hover {
   font-weight: bold;
   border-bottom: 1px solid #ffdf65;
 }
-body li .active {
+body main li .active {
   font-weight: bold;
   border-bottom: 1px solid #ffdf65;
 }
-body .input_bg {
+body main .ask_item:hover {
+  color: #000;
+}
+body main .ask_item:focus {
+  background-color: #fff;
+  box-shadow: 0 0 0 3px rgba(255, 223, 101, 0.5);
+  color: #000;
+}
+body main .ask_num {
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  font-family: "BalooTamma2";
+}
+body main .input_bg {
   background-color: #f7f7f7;
 }
-body .office_pic {
+body main .program_line {
+  height: 3px;
+}
+body main .office_pic {
   width: 100px;
   height: 100px;
 }
-body .share_icon {
+body main .share_icon {
   width: 30px;
   height: 30px;
   text-align: center;
   line-height: 30px;
 }
-body .project_border {
+body main .project_border {
   border-left: 4px solid #ffdf65;
   border-right: 4px solid #ffdf65;
 }
@@ -12414,7 +12431,7 @@ body .project_border {
 }
 
 .rounded_4 {
-  border-radius: 8px;
+  border-radius: 18px;
   overflow: hidden;
 }
 
@@ -12431,5 +12448,19 @@ body .project_border {
 }
 
 .bg_E8E8DB {
-  background-color: #E8E8DB;
+  background-color: #e8e8db;
+}
+
+.nav_sticky {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.h_100vh_sticky {
+  height: calc(100vh - 80px);
+  position: sticky;
+  top: 82px;
+  overflow: scroll;
+  z-index: 990;
 }/*# sourceMappingURL=style.css.map */

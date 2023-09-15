@@ -45,58 +45,87 @@ body {
     .donate_border {
       border-left: 3px solid #ffdf65;
     }
-  }
 
-  //  Navs & Tabs
-  .nav_item {
-    border: none;
-    background-color: transparent;
-    border-bottom: 1px solid transparent;
-    letter-spacing: 2px;
+    //  Navs & Tabs
+    .nav_item {
+      border: none;
+      background-color: transparent;
+      border-bottom: 1px solid transparent;
+      letter-spacing: 2px;
 
-    &:hover {
-      font-weight: bold;
-      border-bottom: 1px solid #ffdf65;
+      &:hover {
+        font-weight: bold;
+        border-bottom: 1px solid #ffdf65;
+      }
+
+      // &:focus {
+      //   font-weight: bold;
+      //   border-bottom: 1px solid #ffdf65;
+      // }
+    }
+    li {
+      .active {
+        font-weight: bold;
+        border-bottom: 1px solid #ffdf65;
+      }
     }
 
-    // &:focus {
-    //   font-weight: bold;
-    //   border-bottom: 1px solid #ffdf65;
+    // 專案介紹
+    // h3 {
+    //   letter-spacing: 1.92px;
     // }
-  }
-  li {
-    .active {
-      font-weight: bold;
-      border-bottom: 1px solid #ffdf65;
+
+    // 常見問答 
+    .ask_item{
+      &:hover{
+        color: #000;
+      }
+
+
+      &:focus{
+        // border-color: #ffdf65;
+        background-color: #fff;
+        // outline: none;
+        box-shadow: 0 0 0 3px rgba(255, 223, 101, 0.5);
+        color: #000;
+
+      }
+
     }
-  }
 
-  // 專案介紹
-  // h3 {
-  //   letter-spacing: 1.92px;
-  // }
+    .ask_num{
+      width: 28px;
+      height: 28px;
+      line-height: 28px;
+      font-family: "BalooTamma2";
+    }
 
-  // form
-  .input_bg {
-    background-color: #f7f7f7;
-  }
+    // form
+    .input_bg {
+      background-color: #f7f7f7;
+    }
 
-  // 右邊強迫贊助
-  .office_pic {
-    width: 100px;
-    height: 100px;
-  }
+    .program_line {
+      height: 3px;
+    }
 
-  .share_icon {
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-  }
+    // 右邊強迫贊助
+    .office_pic {
+      width: 100px;
+      height: 100px;
+    }
 
-  .project_border {
-    border-left: 4px solid #ffdf65;
-    border-right: 4px solid #ffdf65;
+    .share_icon {
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+    }
+
+    .project_border {
+      border-left: 4px solid #ffdf65;
+      border-right: 4px solid #ffdf65;
+    }
   }
 }
 
@@ -148,7 +177,7 @@ body {
 }
 
 .rounded_4 {
-  border-radius: 8px;
+  border-radius: 18px;
   overflow: hidden;
 }
 
@@ -170,10 +199,19 @@ body {
 //   height: auto;
 // }
 // BUG
+
+.nav_sticky {
+  // height: calc(100vh - 82px);
+  position: sticky;
+  top: 0;
+  // overflow: scroll;
+  z-index: 999;
+}
+
 .h_100vh_sticky {
-  height: calc(100vh - 82px);
+  height: calc(100vh - 80px);
   position: sticky;
   top: 82px;
   overflow: scroll;
-  z-index:  999;
+  z-index: 990;
 }

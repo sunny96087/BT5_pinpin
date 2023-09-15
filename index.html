@@ -165,7 +165,7 @@
         </div>
       </section>
       <!-- 下方區塊 -->
-      <div class="border-top border-bottom bg-white ">
+      <div class="border-top border-bottom bg-white nav_sticky">
         <div class="container">
           <!-- Navs & Tabs -->
           <ul class="nav nav-item gap-3" id="pills-tab" role="tablist">
@@ -232,9 +232,9 @@
         <div class="container">
           <div class="row g-5">
             <!-- 左邊換區部分 -->
-            <div class="col-lg-8 pb-3 pt-5 pb-lg-3">
-              <!-- 專案介紹 -->
+            <div class="col-lg-8 pb-3 pt-4">
               <div class="tab-content" id="pills-tabContent">
+                <!-- 專案介紹 -->
                 <div
                   class="tab-pane fade show active"
                   id="pills-introduction"
@@ -271,7 +271,188 @@
                   role="tabpanel"
                   aria-labelledby="pills-questions-tab"
                 >
-                  questions
+                  <!-- 手風琴 -->
+                  <div
+                    class="accordion d-flex flex-column gap-2"
+                    id="accordionExample"
+                  >
+                    <!-- item 1 -->
+                    <div class="accordion-item rounded-1 border border-1">
+                      <h2 class="accordion-header" id="heading1">
+                        <button
+                          class="accordion-button collapsed ask_item rounded-1"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse1"
+                          aria-expanded="false"
+                          aria-controls="collapse1"
+                        >
+                          <span
+                            class="d-inline-block bg-warning ask_num fs_7 fw-bold text-center rounded-2 me-3 ls_1"
+                            >Q1</span
+                          >
+                          影片拍完之後可以編輯嗎？
+                        </button>
+                      </h2>
+                      <div
+                        id="collapse1"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body">
+                          可以進行簡易的編輯，內建 5
+                          種濾鏡，影片秒數有3秒、5秒、10秒可以選擇，拍完的當下可以編輯要印出來的影片範圍哦！
+                        </div>
+                      </div>
+                    </div>
+                    <!-- item 2 -->
+                    <div class="accordion-item rounded-1 border border-1">
+                      <h2 class="accordion-header" id="heading2">
+                        <button
+                          class="accordion-button collapsed ask_item rounded-1"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse2"
+                          aria-expanded="false"
+                          aria-controls="collapse2"
+                        >
+                          <span
+                            class="d-inline-block bg-warning ask_num fs_7 fw-bold text-center rounded-2 me-3 ls_1"
+                            >Q2</span
+                          >
+                          有提供保固或維修服務嗎？
+                        </button>
+                      </h2>
+                      <div
+                        id="collapse2"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body">
+                          提供產品售後服務，對產品本體(不含配件、線材)提供二年保固服務。產品因意外或人為不當使用或未經授權維修等非依使用手冊使用而造成產品損壞者，則不在保固範圍之內，得向客戶酌收產品維修服務費用。
+                        </div>
+                      </div>
+                    </div>
+                    <!-- item 3 -->
+                    <div class="accordion-item rounded-1 border border-1">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button
+                          class="accordion-button collapsed ask_item rounded-1"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse3"
+                          aria-expanded="false"
+                          aria-controls="collapse3"
+                        >
+                          <span
+                            class="d-inline-block bg-warning ask_num fs_7 fw-bold text-center rounded-2 me-3 ls_1"
+                            >Q3</span
+                          >
+                          補充包底片要去哪裡購買呢？
+                        </button>
+                      </h2>
+                      <div
+                        id="collapse3"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body">
+                          本產品可以兼容 i-type 及 600
+                          相片，各大網路平台皆有販售。
+                        </div>
+                      </div>
+                    </div>
+                    <!-- item 4 -->
+                    <div class="accordion-item rounded-1 border border-1">
+                      <h2 class="accordion-header" id="heading4">
+                        <button
+                          class="accordion-button collapsed ask_item rounded-1"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse4"
+                          aria-expanded="false"
+                          aria-controls="collapse4"
+                        >
+                          <span
+                            class="d-inline-block bg-warning ask_num fs_7 fw-bold text-center rounded-2 me-3 ls_1"
+                            >Q4</span
+                          >
+                          印出來的拍立得照片需要充電嗎？
+                        </button>
+                      </h2>
+                      <div
+                        id="collapse4"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body">
+                          不用，取出後稍微搖晃，相片與空氣接觸數秒後便會產生圖像顏色。
+                        </div>
+                      </div>
+                    </div>
+                    <!-- item 5 -->
+                    <div class="accordion-item rounded-1 border border-1">
+                      <h2 class="accordion-header" id="heading5">
+                        <button
+                          class="accordion-button collapsed ask_item rounded-1"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse5"
+                          aria-expanded="false"
+                          aria-controls="collapse5"
+                        >
+                          <span
+                            class="d-inline-block bg-warning ask_num fs_7 fw-bold text-center rounded-2 me-3 ls_1"
+                            >Q5</span
+                          >
+                          運送方式及付款方式有哪些呢？
+                        </button>
+                      </h2>
+                      <div
+                        id="collapse5"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body">
+                          可以選擇超商取貨及宅配，付款方式有銀行轉帳及信用卡支付。
+                        </div>
+                      </div>
+                    </div>
+                    <!-- item 6 -->
+                    <div class="accordion-item rounded-1 border border-1">
+                      <h2 class="accordion-header" id="heading6">
+                        <button
+                          class="accordion-button collapsed ask_item rounded-1"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse6"
+                          aria-expanded="false"
+                          aria-controls="collapse6"
+                        >
+                          <span
+                            class="d-inline-block bg-warning ask_num fs_7 fw-bold text-center rounded-2 me-3 ls_1"
+                            >Q6</span
+                          >
+                          退換貨方式及規則？
+                        </button>
+                      </h2>
+                      <div
+                        id="collapse6"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body">
+                          因商品封條多為一次性包裝，商品退貨時必須回復原狀，亦即必須回復至您收到商品時的原始狀態，且會視回收的商品狀態另外酌收額外的整新費用，請您務必確認有購買需求後再行拆封，感謝您的配合。
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <!-- 目前進度 -->
                 <div
@@ -294,7 +475,18 @@
               </div>
 
               <!-- lg 贊助專案表單 -->
-              <div class="d-none d-lg-block">
+              <div class="d-none d-lg-block mt-5">
+                <div class="text-center">
+                  <img src="img/icon_heart.svg" alt="贊助專案圖示" />
+                </div>
+                <div class="position-relative mt-7 mb-8">
+                  <div class="program_line bg-warning"></div>
+                  <p
+                    class="fs-4 fw-bold position-absolute top-50 start-50 translate-middle px-3 bg-white"
+                  >
+                    贊助專案
+                  </p>
+                </div>
                 <form id="form" class="needs-validation custom-form" novalidate>
                   <div class="mb-3">
                     <label for="project" class="form-label">贊助方案</label>
@@ -400,11 +592,11 @@
               <div class="toast-body bg-warning">成功贊助專案！</div>
             </div>
             <!-- 右邊強迫贊助 -->
-            <div class="col-lg-4 pb-5 pt-lg-5 mt-0 mt-lg-5">
-              <!-- XXX sticky 無法正常運作 -->
+            <!-- lg 有 sticky -->
+            <div class="d-none d-lg-block col-lg-4 pb-5 pt-lg-5 mt-0 mt-lg-5">
               <div class="h_100vh_sticky">
                 <!-- 缺錢事務所 -->
-                <div class="card p-3 rounded-1">
+                <div class="card p-3 rounded_4">
                   <!-- 圖片 & title -->
                   <div class="d-flex justify-content-start gap-2">
                     <div
@@ -440,7 +632,7 @@
                       </div>
                     </div>
                     <button
-                      class="btn border border-1 border-dark px-6 py-2 rounded-pill"
+                      class="btn btn-outline-secondary px-6 py-2 rounded-pill fs_9"
                     >
                       <i class="fa fa-commenting-o" aria-hidden="true"></i>
                       聯絡我們
@@ -576,9 +768,186 @@
                 </div>
               </div>
             </div>
+            <!-- ms 版 -->
+            <div class="d-lg-none pb-5 pt-lg-5 mt-0">
+              <!-- 缺錢事務所 -->
+              <div class="card p-3 rounded_4">
+                <!-- 圖片 & title -->
+                <div class="d-flex justify-content-start gap-2">
+                  <div
+                    class="rounded-pill border border-2 border-warning office_pic"
+                  >
+                    <img
+                      src="img/store_img.jpg"
+                      alt="缺錢事務所"
+                      class="rounded-pill pic_rwd"
+                    />
+                  </div>
+
+                  <div class="d-flex flex-column justify-content-center gap-1">
+                    <div class="fs-4">缺錢事務所</div>
+                    <span>已發起 1 個專案</span>
+                  </div>
+                </div>
+                <!-- 文字 & icon -->
+                <p class="text-justify pt-3 ls_1">
+                  需要點錢錢做些酷酷的東西，拜託各位乾爹乾媽囉！
+                </p>
+                <div
+                  class="d-flex justify-content-between align-content-center"
+                >
+                  <div class="d-flex gap-2 align-items-center">
+                    <div class="share_icon bg-dark rounded-pill text-white">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                    <div class="share_icon bg-dark rounded-pill text-white">
+                      <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                  <button
+                    class="btn  btn-outline-secondary px-6 py-2 rounded-pill fs_9"
+                  >
+                    <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                    聯絡我們
+                  </button>
+                </div>
+              </div>
+              <!-- 選擇方案 -->
+              <div
+                class="fs-5 fw-bold text-center py-2 bg-light project_border rounded-1 mt-8 mb-3"
+              >
+                選擇一個方案來支持
+              </div>
+              <!-- 方案 -->
+              <div class="card rounded_4 mb-3">
+                <div class="">
+                  <img
+                    src="img/plan_img.jpg"
+                    alt="團購優惠專案圖片"
+                    class="pic_rwd"
+                  />
+                </div>
+                <!-- 內容區域 -->
+                <div class="px-3 py-6">
+                  <div
+                    class="d-flex justify-content-between pb-2 border-bottom"
+                  >
+                    <span class="fs_7">限時優惠</span>
+                    <span class="fs_7">2 days 20:05:20</span>
+                  </div>
+                  <h2 class="fs_8 pt-2 fw-bold">買一送一，只有兩百組別錯過</h2>
+                  <p class="fs-4 fw-bold mb-2">NT$ 1600</p>
+                  <div class="fw-bold fs_9">
+                    <span
+                      class="bg_E8E8DB d-inline-block py-1 px-3 rounded-2 me-1"
+                      >已被贊助88次</span
+                    >
+                    <span
+                      class="bg-secondary text-white d-inline-block py-1 px-3 rounded-2"
+                      >限量<span class="text-warning">200</span>個</span
+                    >
+                  </div>
+                  <p class="text-justify py-2 ls_1">
+                    受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。
+                  </p>
+                  <button
+                    class="btn btn-warning w-100 rounded-pill fw-bold text-dark"
+                  >
+                    贊助此專案
+                  </button>
+                </div>
+              </div>
+              <div class="card rounded_4 mb-3">
+                <div class="">
+                  <img
+                    src="img/plan_img.jpg"
+                    alt="團購優惠專案圖片"
+                    class="pic_rwd"
+                  />
+                </div>
+                <!-- 內容區域 -->
+                <div class="px-3 py-6">
+                  <div
+                    class="d-flex justify-content-between pb-2 border-bottom"
+                  >
+                    <span class="fs_7">限時優惠</span>
+                    <span class="fs_7">2 days 20:05:20</span>
+                  </div>
+                  <h2 class="fs_8 pt-2 fw-bold">買一送一，只有兩百組別錯過</h2>
+                  <p class="fs-4 fw-bold mb-2">NT$ 1600</p>
+                  <div class="fw-bold fs_9">
+                    <span
+                      class="bg_E8E8DB d-inline-block py-1 px-3 rounded-2 me-1"
+                      >已被贊助88次</span
+                    >
+                    <span
+                      class="bg-secondary text-white d-inline-block py-1 px-3 rounded-2"
+                      >限量<span class="text-warning">200</span>個</span
+                    >
+                  </div>
+                  <p class="text-justify py-2 ls_1">
+                    受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。
+                  </p>
+                  <button
+                    class="btn btn-warning w-100 rounded-pill fw-bold text-dark"
+                  >
+                    贊助此專案
+                  </button>
+                </div>
+              </div>
+              <div class="card rounded_4 mb-3">
+                <div class="">
+                  <img
+                    src="img/plan_img.jpg"
+                    alt="團購優惠專案圖片"
+                    class="pic_rwd"
+                  />
+                </div>
+                <!-- 內容區域 -->
+                <div class="px-3 py-6">
+                  <div
+                    class="d-flex justify-content-between pb-2 border-bottom"
+                  >
+                    <span class="fs_7">限時優惠</span>
+                    <span class="fs_7">2 days 20:05:20</span>
+                  </div>
+                  <h2 class="fs_8 pt-2 fw-bold">買一送一，只有兩百組別錯過</h2>
+                  <p class="fs-4 fw-bold mb-2">NT$ 1600</p>
+                  <div class="fw-bold fs_9">
+                    <span
+                      class="bg_E8E8DB d-inline-block py-1 px-3 rounded-2 me-1"
+                      >已被贊助88次</span
+                    >
+                    <span
+                      class="bg-secondary text-white d-inline-block py-1 px-3 rounded-2"
+                      >限量<span class="text-warning">200</span>個</span
+                    >
+                  </div>
+                  <p class="text-justify py-2 ls_1">
+                    受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。
+                  </p>
+                  <button
+                    class="btn btn-warning w-100 rounded-pill fw-bold text-dark"
+                  >
+                    贊助此專案
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
           <!-- ms 贊助專案表單 -->
-          <div class="d-lg-none">
+          <div class="d-lg-none mb-4">
+            <div class="text-center">
+              <img src="img/icon_heart.svg" alt="贊助專案圖示" />
+            </div>
+            <div class="position-relative mt-7 mb-8">
+              <div class="program_line bg-warning"></div>
+              <p
+                class="fs-4 fw-bold position-absolute top-50 start-50 translate-middle px-3 bg-white"
+              >
+                贊助專案
+              </p>
+            </div>
             <form id="form2" class="needs-validation custom-form" novalidate>
               <div class="mb-3">
                 <label for="project1" class="form-label">贊助方案</label>
