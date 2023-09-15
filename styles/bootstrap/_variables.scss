@@ -265,11 +265,17 @@ $gradient: linear-gradient(
 $spacer: 1rem !default;
 $spacers: (
   0: 0,
-  1: $spacer / 4,
-  2: $spacer / 2,
-  3: $spacer,
-  4: $spacer * 1.5,
-  5: $spacer * 3,
+  1: $spacer / 4, // 4
+  2: $spacer / 2, // 8
+  3: $spacer, // 16
+  4: $spacer * 1.5, // 24
+  5: $spacer * 3, // 48
+  // NOTE 新增 padding
+  6: 12px,
+  7: 20px,
+  8: 32px,
+  9: 40px,
+  
 ) !default;
 
 $negative-spacers: if(
@@ -388,9 +394,13 @@ $border-color: $gray-300 !default;
 // scss-docs-end border-variables
 
 // scss-docs-start border-radius-variables
-$border-radius: 0.25rem !default;
-$border-radius-sm: 0.2rem !default;
-$border-radius-lg: 0.3rem !default;
+// NOTE
+// $border-radius: 0.25rem !default;
+// $border-radius-sm: 0.2rem !default;
+// $border-radius-lg: 0.3rem !default;
+$border-radius: 4px !default; //2
+$border-radius-sm: 8px !default; //1
+$border-radius-lg: 24px !default; //3
 $border-radius-pill: 50rem !default;
 // scss-docs-end border-radius-variables
 

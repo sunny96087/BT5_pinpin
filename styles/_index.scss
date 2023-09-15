@@ -1,3 +1,9 @@
+
+body{
+  font-family: "NotoSans TC", BalooTamma2;
+  background-color: $gray-100;
+
+
 .header {
   border-bottom: 2px solid #ffdf65;
 
@@ -13,4 +19,37 @@
   .login {
     color: #636057;
   }
+
+  .nav_b {
+    padding: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+main{
+  // section
+  h1{
+    letter-spacing: 3px;
+  }
+
+  .price{
+    font-family: BalooTamma2;
+    // font-weight: 600;
+    // margin-bottom: 12px;
+  }
+
+  .icon{
+    width: 24px;
+    height: 24px;
+  }
+
+  .donate_border{
+    border-left: 3px solid #ffdf65;
+  }
+}
+}
+
+.pic_rwd{
+  width: 100%;height: 100%; object-fit: cover;
 }
