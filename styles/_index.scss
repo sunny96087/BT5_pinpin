@@ -27,9 +27,9 @@ body {
 
   main {
     // section
-    h1 {
-      letter-spacing: 3px;
-    }
+    // h1 {
+    //   letter-spacing: 3px;
+    // }
 
     .price {
       font-family: BalooTamma2;
@@ -72,13 +72,31 @@ body {
   }
 
   // 專案介紹
-  h3 {
-    letter-spacing: 1.92px;
-  }
+  // h3 {
+  //   letter-spacing: 1.92px;
+  // }
 
   // form
   .input_bg {
     background-color: #f7f7f7;
+  }
+
+  // 右邊強迫贊助
+  .office_pic {
+    width: 100px;
+    height: 100px;
+  }
+
+  .share_icon {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  .project_border {
+    border-left: 4px solid #ffdf65;
+    border-right: 4px solid #ffdf65;
   }
 }
 
@@ -106,4 +124,56 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 999;
+}
+
+// letter-spacing
+.ls_1 {
+  letter-spacing: 0.7px;
+}
+.ls_2 {
+  letter-spacing: 1px;
+}
+.ls_3 {
+  letter-spacing: 1.5px;
+}
+
+.ls_4 {
+  letter-spacing: 1.92px;
+}
+.ls_5 {
+  letter-spacing: 2px;
+}
+.ls_6 {
+  letter-spacing: 3px;
+}
+
+.rounded_4 {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.fs_7 {
+  font-size: 14px;
+}
+.fs_8 {
+  font-size: 18px;
+}
+.fs_9 {
+  font-size: 12px;
+}
+
+.bg_E8E8DB {
+  background-color: #e8e8db;
+}
+
+// .h_100 {
+//   height: auto;
+// }
+// BUG
+.h_100vh_sticky {
+  height: calc(100vh - 82px);
+  position: sticky;
+  top: 82px;
+  overflow: scroll;
+  z-index:  999;
 }

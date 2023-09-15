@@ -12322,9 +12322,6 @@ body .header .nav_b {
   padding-left: 32px;
   padding-right: 32px;
 }
-body main h1, body main .h1 {
-  letter-spacing: 3px;
-}
 body main .price {
   font-family: BalooTamma2;
 }
@@ -12349,11 +12346,22 @@ body li .active {
   font-weight: bold;
   border-bottom: 1px solid #ffdf65;
 }
-body h3, body .h3 {
-  letter-spacing: 1.92px;
-}
 body .input_bg {
   background-color: #f7f7f7;
+}
+body .office_pic {
+  width: 100px;
+  height: 100px;
+}
+body .share_icon {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+body .project_border {
+  border-left: 4px solid #ffdf65;
+  border-right: 4px solid #ffdf65;
 }
 
 .pic_rwd {
@@ -12379,4 +12387,49 @@ body .input_bg {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 999;
+}
+
+.ls_1 {
+  letter-spacing: 0.7px;
+}
+
+.ls_2 {
+  letter-spacing: 1px;
+}
+
+.ls_3 {
+  letter-spacing: 1.5px;
+}
+
+.ls_4 {
+  letter-spacing: 1.92px;
+}
+
+.ls_5 {
+  letter-spacing: 2px;
+}
+
+.ls_6 {
+  letter-spacing: 3px;
+}
+
+.rounded_4 {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.fs_7 {
+  font-size: 14px;
+}
+
+.fs_8 {
+  font-size: 18px;
+}
+
+.fs_9 {
+  font-size: 12px;
+}
+
+.bg_E8E8DB {
+  background-color: #E8E8DB;
 }/*# sourceMappingURL=style.css.map */
