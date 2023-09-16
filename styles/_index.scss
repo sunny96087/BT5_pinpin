@@ -222,3 +222,40 @@ body {
   overflow: scroll;
   z-index: 990;
 }
+
+// hover
+// warning
+.btn-warning:hover {
+  background-color: #ff785e;
+  color: #fff !important;
+  border-color: #ff785e;
+}
+
+.btn-warning:focus {
+  background-color: #ff785e;
+  color: #fff !important;
+  border-color: #ff785e;
+  box-shadow: 0 0 0 0.25rem rgba(245, 129, 97, 0.502);
+}
+.btn-warning:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(245, 129, 97, 0.502);
+}
+
+// secondary
+.btn-outline-secondary:hover {
+  color: #858377;
+  background-color: #ffdf65;
+  border-color: #ffdf65;
+  i{
+    color: #ff785e;
+  }
+}
+
+.btn-outline-secondary:focus {
+  box-shadow: 0 0 0 0.25rem rgba(217, 190, 86, 0.5);
+}
+
+.btn-outline-secondary:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(217, 190, 86, 0.5);
+}
+//box-shadow: 0 0 0 0.25rem rgba(217, 190, 86, 0.5);}
