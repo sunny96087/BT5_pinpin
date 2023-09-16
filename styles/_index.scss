@@ -75,25 +75,22 @@ body {
     //   letter-spacing: 1.92px;
     // }
 
-    // 常見問答 
-    .ask_item{
-      &:hover{
+    // 常見問答
+    .ask_item {
+      &:hover {
         color: #000;
       }
 
-
-      &:focus{
+      &:focus {
         // border-color: #ffdf65;
         background-color: #fff;
         // outline: none;
         box-shadow: 0 0 0 3px rgba(255, 223, 101, 0.5);
         color: #000;
-
       }
-
     }
 
-    .ask_num{
+    .ask_num {
       width: 28px;
       height: 28px;
       line-height: 28px;
@@ -181,6 +178,11 @@ body {
   overflow: hidden;
 }
 
+.rounded_5 {
+  border-radius: 4px;
+  // overflow: hidden;
+}
+
 .fs_7 {
   font-size: 14px;
 }
@@ -195,10 +197,15 @@ body {
   background-color: #e8e8db;
 }
 
+.text_858377 {
+  color: #858377;
+}
+
 // .h_100 {
 //   height: auto;
 // }
-// BUG
+
+// BUG 時好時壞
 
 .nav_sticky {
   // height: calc(100vh - 82px);
